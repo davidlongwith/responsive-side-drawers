@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Side Drawers</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <button class="drawer-button-left">⥂</button><!-- unicode U+02942 -->
+    <button class="drawer-button-right">⥃</button><!-- unicode U+02943 -->
+  </header>
+
+  <!-- Left Side Drawer -->
+  <div class="side-button-div">
+    <button id="side-button-left" class="drawer-button-left">Click Me&#33;</button>
+  </div>
+  <div id="drawer-left"></div>
+  
+  <!-- Right Side Drawer -->
+  <div class="side-button-div side-button-div-right">
+    <button id="side-button-right" class="drawer-button-right">Click Me&#33;</button>
+  </div>
+  <div id="drawer-right"></div>
+
+  <script type="text/javascript" src="js/drawers.js"></script>
+</body>
+</html>
